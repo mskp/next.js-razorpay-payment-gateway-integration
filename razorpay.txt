@@ -1,0 +1,2 @@
+key_id=rzp_test_MNfxDdRMxTs9JR
+key_secret=r5EPY0HRHK575xygdB5OIjEJ

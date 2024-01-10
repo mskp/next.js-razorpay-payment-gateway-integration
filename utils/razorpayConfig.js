@@ -1,9 +1,8 @@
 import Razorpay from "razorpay";
 
-export const option = {
-    key_id: "rzp_test_MNfxDdRMxTs9JR",
-    key_secret: "r5EPY0HRHK575xygdB5OIjEJ"
-}
-const razorpayInstance = new Razorpay(option)
+const razorpayInstance = new Razorpay({
+    key_id: process.env.RAZORPAY_KEY_ID,
+    key_secret: process.env.RAZORPAY_KEY_SECRET
+})
 
 export default razorpayInstance;
