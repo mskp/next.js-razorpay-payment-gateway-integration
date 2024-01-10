@@ -47,7 +47,7 @@ function Home() {
     >
       <section>
         <div>
-          <h1>Amount you're gonna donate: {amount} </h1>
+          <h1>Amount you are gonna donate: {amount} </h1>
           <button
             style={{
               padding: "2rem",
